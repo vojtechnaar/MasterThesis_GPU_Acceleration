@@ -1,0 +1,111 @@
+# Build and Compiled Files
+*.o
+*.a
+*.so
+*.out
+*.exe
+*.dll
+*.dylib
+*.class
+*.jar
+build/
+dist/
+bin/
+obj/
+
+# C++ and CUDA
+*.su
+*.gch
+*.pch
+*.ipch
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+compile_commands.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Large Data Files (prevent pushing oversized datasets)
+*.ttl
+*.ttl.gz
+*.rdf
+*.rdf.gz
+*.nt
+*.nt.gz
+*.tsv
+*.csv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+
+# Large Model and Checkpoint Files
+*.pb
+*.ckpt
+*.pth
+*.pt
+*.model
+*.weights
+*.bin
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.AppleDouble
+.LSOverride
+*.sublime-project
+*.sublime-workspace
+.envrc
+.dirlocals
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# System Files
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Test and Benchmark Output
+*.log
+test_output/
+benchmark_results/
+
+# Large Compiled Artifacts
+*.so.debug
+*.a.debug
+
+# Temporary Files
+*.tmp
+*.temp
+*.bak
+*.backup
