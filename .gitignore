@@ -109,3 +109,12 @@ benchmark_results/
 *.temp
 *.bak
 *.backup
+
+# Datasets live on Google Drive
+body_test_data/*
+!body_test_data/*.py
+
+# Build outputs
+rdf_rules_rewritten
+rdf_rules_test
+bench_gpu
